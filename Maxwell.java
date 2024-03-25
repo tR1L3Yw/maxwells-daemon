@@ -162,8 +162,7 @@ public class Maxwell extends JFrame implements ActionListener {
                     g.drawLine(pixLoc, 0, pixLoc, 600);
                 }
             }
-
-
+            
             //draws particles
             for ( int i=0; i<slowCount; i++) 
             {
@@ -241,7 +240,6 @@ public class Maxwell extends JFrame implements ActionListener {
         
         //we're gonna let the children take care of this one
         public void drawMe( Graphics g ) { }
-        
     }
 
     //HawtParticle is a Particle
@@ -347,7 +345,6 @@ public class Maxwell extends JFrame implements ActionListener {
         temps[1] = rightTemp;
 
         return temps;
-        
     }
 
     //sets temp display value
@@ -403,17 +400,13 @@ public class Maxwell extends JFrame implements ActionListener {
         {
             addParticles();
         }
-        
         game.repaint();
-        
     }
 
     //main funk
     public static void main(String[] args) 
     {
-    	
-        Maxwell gaemon = new Maxwell();
-        
+        Maxwell demonTime = new Maxwell();   
     }
 }
 
